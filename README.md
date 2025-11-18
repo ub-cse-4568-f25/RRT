@@ -102,9 +102,9 @@ This part requires you to implement RRT for a given bounding box(min, max bounds
 3. Implement RRT with the above inputs and the algorithm given
 4. Return the path by backtracing the tree from the goal
 
-<img src="imgs/RRT_Part1_2D.png" width="250">
-<img src="imgs/RRT_Part1_2D_Tree.png" width="250">
-<img src="imgs/RRT_Part1_3D.png" width="250">
+| 2D View | Search Tree | 3D View |
+|---------|-------------|---------|
+| ![](imgs/RRT_Part1_2D.png) | ![](imgs/RRT_Part1_2D_Tree.png) | ![](imgs/RRT_Part1_3D.png) |
 
 ## Part 2
 
@@ -114,9 +114,9 @@ For the purposes of evaluation, you can set the number of iterations for RRT as 
 
 You can modify the parts of `plan.py` for altitude setting, building polygon progections and calling RRT so as to loop iteratively.
 
-<img src="imgs/RRT_Part2_2D.png" width="250">
-<img src="imgs/RRT_Part2_2D_Tree.png" width="250">
-<img src="imgs/RRT_Part2_3D.png" width="250">
+| 2D View | Search Tree | 3D View |
+|---------|-------------|---------|
+| ![](imgs/RRT_Part2_2D.png) | ![](imgs/RRT_Part2_2D_Tree.png) | ![](imgs/RRT_Part2_3D.png) |
 
 
 # Submission and Assessment
